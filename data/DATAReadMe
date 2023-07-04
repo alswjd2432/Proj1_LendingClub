@@ -1,0 +1,5 @@
+<DATA 받을 수 있는 경로>
+https://drive.google.com/drive/folders/17Q9GFiJ5NX6NTwQ2lSIZ_hFnlIg4gVxv?usp=share_link
+- lendingclub_test.dta : 원본 데이터 전체
+- lending%20club_scailing%20(2).csv : 전처리 데이터 1
+- lending%20club_undummies_outlier.csv : 전처리 데이터 2
