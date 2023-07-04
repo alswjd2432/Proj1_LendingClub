@@ -4,7 +4,6 @@
 <br>
 
 ### 부도 확률 예측 모델
-<br>
 모델 1. Lasso로 최적 변수 추출 후 LogisticRegression 이용해 부도 확률 예측 (model_Lasso_logistic.ipynb) 
 <br>
 모델 2. Elastic으로 최적 변수 추출 후 LogisticRegression 이용해 부도 확률 예측 (model_Elastic_logistic.ipynb)
