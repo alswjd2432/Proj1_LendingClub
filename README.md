@@ -3,7 +3,8 @@
 ### 데이터 : LendingClub(P2P 대출 업체)에서 제공하는 대출 승인자의 정보 데이터
 
 ### 부도 확률 예측 모델
-모델 1. Lasso로 최적 변수 추출 후 LogisticRegression 이용해 부도 확률 예측 (model_Lasso_logistic.ipynb) //
+모델 1. Lasso로 최적 변수 추출 후 LogisticRegression 이용해 부도 확률 예측 (model_Lasso_logistic.ipynb) 
+<br>
 모델 2. Elastic으로 최적 변수 추출 후 LogisticRegression 이용해 부도 확률 예측 (model_Elastic_logistic.ipynb) \n
 모델 3. LogisticRegression (model_Logistic.ipynb) /n
 모델 4. DecisionTreeClassifier (model_Decision_Tree.ipynb) /n
