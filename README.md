@@ -15,22 +15,23 @@
 모델 5. RandomForestClassifier (model_RandomForest.ipynb)
 <br>
 
-### 결론 1. Cost 함수를 0.83*FN + 0.17*FP 설정했을 때, 이익과 손실이 최적화된다.
+### 결론
+#### 결론 1. Cost 함수를 0.83*FN + 0.17*FP 설정했을 때, 이익과 손실이 최적화된다.
 복잡한 이익 함수와 손실 함수를 쓰지 않아도, 최적의 Cost 함수를 통해 적절한 optimal threshold를 구성할 수 있다.
 <br>
 (이익 함수와 손실 함수에 사용되는 사전변수의 영향 없이 Cost 함수 구성 가능)
 <br>
-### 결론 2. LogisticRegression(모델3)을 적용, optimal threshold를 0.177로 설정했을 때 이익이 최대화 되었다.
+#### 결론 2. LogisticRegression(모델3)을 적용, optimal threshold를 0.177로 설정했을 때 이익이 최대화 되었다.
 초기 전체 데이터에서 계산한 이익의 1.368배로 이익을 증가시킴
 <br>
-### 결론 3. LogisticRegression(모델3)을 적용, optimal threshold를 0.15로 설정했을 때 손실이 최소화 되었다.
+#### 결론 3. LogisticRegression(모델3)을 적용, optimal threshold를 0.15로 설정했을 때 손실이 최소화 되었다.
 초기 전체 데이터에서 계산한 손실의 0.9261배로 손실을 감소시킴
 <br>
 
-### 추가 사항
+### 추가 사항 : Out of sample data 적용시
 모델을 새로운 데이터에 적용하기 (OutOfSample_Logistic.ipynb)
 <br>
 결론에 등장한 모델을 적용했을때, 이익과 손실이 모두 기존보다 최적화되는 것을 확인 가능
 <br>
 
-### 자세한 사항은 Lending Club.pdf 참고
+#### 자세한 사항은 Lending Club.pdf 참고
