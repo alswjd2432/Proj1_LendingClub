@@ -33,5 +33,4 @@
 결론에 등장한 모델을 적용했을때, 이익과 손실이 모두 기존보다 최적화되는 것을 확인 가능
 <br>
 
-### 자세한 사항은 아래 PPT로
-[Lending Club.pdf](https://github.com/alswjd2432/desktop-tutorial/files/11948506/Lending.Club.pdf)
+### 자세한 사항은 Lending Club.pdf 참고
